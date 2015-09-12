@@ -1,13 +1,13 @@
 {
-    "title": "Github Theme",
-    "name": "github-theme",
+    "title": "Github/Gist Theme",
+    "name": "gist-theme",
     "description": "Light Github-like theme",
     "version": "0.0.1",
-    "author": "George Raptis <georapbox@gmail.com>",
-    "homepage": "https://github.com/georapbox/brackets-github-theme",
+    "author": "Cometeer",
+    "homepage": "https://github.com/cometeer/brackets-github-theme",
     "repository": {
         "type": "git",
-        "url": "git://github.com/georapbox/brackets-github-theme.git"
+        "url": "https://github.com/cometeer/brackets-github-theme.git"
     },
     "engines": {
         "brackets": ">=0.44.0"
