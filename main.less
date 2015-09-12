@@ -54,7 +54,7 @@
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-    background-color: #b3cde7;
+    background-color: rgba(200, 200, 250,1);
 }
 
 .CodeMirror .CodeMirror-gutters {
@@ -69,9 +69,11 @@
     color: @comment !important;
 }
 
+
 .CodeMirror .CodeMirror-matchingbracket {
-    color: @foreground !important;
-    background-color: #b3cde7;
+      background-color: rgb(251, 247, 205);
+      border: 1px solid darken(rgb(255, 243, 172), 24);
+      border-radius: 2px;
 }
 
 .CodeMirror .CodeMirror-linenumber {
@@ -84,7 +86,9 @@
 }
 
 .CodeMirror-matchingtag {
-    background-color: #daebfd;
+      background-color: rgb(251, 247, 205);
+      border: 1px solid darken(rgb(255, 243, 172), 24);
+      border-radius: 2px;
 }
 
 .CodeMirror .CodeMirror-cursor {
